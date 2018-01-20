@@ -4,4 +4,8 @@
 
 This repository contains pico container dependency injection examples.
 
+links:
+
+. link:http://picocontainer.com/introduction.html[Pico container reference]
+
 //end::content[]

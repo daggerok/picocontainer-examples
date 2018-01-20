@@ -1,6 +1,6 @@
 buildscript {
   ext {
-    picoVersion = "3"
+    picoVersion = "2.15"
     lombokVersion = "1.16.18"
   }
 }
@@ -11,7 +11,7 @@ plugins {
 }
 
 dependencies {
-  compile("picocontainer:picocontainer:$picoVersion")
+  compile("org.picocontainer:picocontainer:$picoVersion")
   compileOnly("org.projectlombok:lombok:$lombokVersion")
 }
 
