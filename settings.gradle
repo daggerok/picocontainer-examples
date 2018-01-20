@@ -1,0 +1,3 @@
+rootProject.name = "picocontainer-examples"
+include ":hello-pico"
+project(":hello-pico").projectDir = "$rootDir/hello-pico" as File
